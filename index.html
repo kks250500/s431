@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Государственный экзамен</title>
+</head>
+<body onload="load()">
+    <div id="square" style="width:150px;height:150px;border:1px solid"></div>
+    <table>
+        <tr>
+            <td style="width:150px">
+                <input type="radio" name="rB" id="r0" onclick="rColor(event)" />Черный<br />
+                <input type="radio" name="rB" id="r1" onclick="rColor(event)" />Красный<br />
+                <input type="radio" name="rB" id="r2" onclick="rColor(event)" />Зеленый<br />
+                <input type="radio" name="rB" id="r3" onclick="rColor(event)" />Желтый<br />
+                <input type="radio" name="rB" id="r4" onclick="rColor(event)" />Синий<br />
+                <input type="radio" name="rB" id="r5" onclick="rColor(event)" />Фиолетовый<br />
+                <input type="radio" name="rB" id="r6" onclick="rColor(event)" />Голубой<br />
+                <input type="radio" name="rB" id="r7" onclick="rColor(event)" />Белый<br />
+            </td>
+            <td style="width:150px">
+                <input type="checkbox" id="c1" onclick="cColor()" />Красный<br />
+                <input type="checkbox" id="c2" onclick="cColor()" />Зеленый<br />
+                <input type="checkbox" id="c3" onclick="cColor()" />Синий<br />
+            </td>
+            <td style="width:150px">
+                <select id="select" onclick="sColor()">
+                    <option>Черный</option>
+                    <option>Красный</option>
+                    <option>Зеленый</option>
+                    <option>Желтый</option>
+                    <option>Синий</option>
+                    <option>Фиолетовый</option>
+                    <option>Голубой</option>
+                    <option>Белый</option>
+                </select>
+            </td>
+            <td style="width:150px">
+                <button type="button" id="b0" onclick="bColor(event)" style="width:100px">Черный</button>
+                <button type="button" id="b1" onclick="bColor(event)" style="width:100px">Красный</button>
+                <button type="button" id="b2" onclick="bColor(event)" style="width:100px">Зеленый</button>
+                <button type="button" id="b3" onclick="bColor(event)" style="width:100px">Желтый</button>
+                <button type="button" id="b4" onclick="bColor(event)" style="width:100px">Синий</button>
+                <button type="button" id="b5" onclick="bColor(event)" style="width:100px">Фиолетовый</button>
+                <button type="button" id="b6" onclick="bColor(event)" style="width:100px">Голубой</button>
+                <button type="button" id="b7" onclick="bColor(event)" style="width:100px">Белый</button>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
